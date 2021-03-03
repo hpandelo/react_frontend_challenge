@@ -21,11 +21,13 @@ const BackLink = styled.span`
   cursor: pointer;
 
   &:before {
-    content: "🡸";
+    content: '\f1e6';
     padding: 8px;
     font-size: 20px;
+    font-weight: bolder;
     display: inline-block;
     vertical-align: baseline;
+    font-family: "Material Icons";
   }
 `;
 
